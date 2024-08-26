@@ -1,0 +1,35 @@
+.menuNuevaPartida{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    
+}
+
+.menuNuevaPartida form{
+    padding: 10px;
+}
+
+.menuNuevaPartida form select {
+    
+    border-left: 1px solid #000; /* Ajusta el color y el grosor según sea necesario */
+    border-radius: 5px;
+    padding: 3px;
+}
+.menuNuevaPartida form textarea {
+    width: 350px;
+    height: 2.5em;
+    border-left: 1px solid #000; /* Ajusta el color y el grosor según sea necesario */
+    border-radius: 5px;
+    padding: 3px;
+    resize: none; /* Evita que se redimensione manualmente */
+    overflow-y: visible; /* Añade barra de desplazamiento vertical si el contenido es más grande que el textarea */
+}
+
+.menuNuevaPartida form input {
+    border-left: 1px solid #000; /* Ajusta el color y el grosor según sea necesario */
+    border-radius: 5px;
+    padding: 3px;
+    
+}

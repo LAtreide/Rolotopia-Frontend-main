@@ -1,0 +1,16 @@
+.closeTab {
+    margin: 0 14px 0 12px;
+    padding: 5px;
+    border-radius: 100%;
+    line-height: 16px;
+    text-align: center;
+    border: none;
+
+}
+
+.closeTab:hover {
+
+    background-color: #DAE0E7;
+
+
+}

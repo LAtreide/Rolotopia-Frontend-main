@@ -1,0 +1,8 @@
+.editorBase{
+    width: 750px !important;
+    display: inline-block;
+    text-align: left;
+    color: 'black';
+    left: 50%;
+    transform: translateX(-85px);
+}

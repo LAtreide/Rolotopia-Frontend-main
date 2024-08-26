@@ -1,0 +1,174 @@
+/* MensajesPrivados.css */
+.mensajesContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.buttonGroup button {
+    padding: 10px 20px;
+   
+}
+
+.buttonGroup .botonActivo {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    background: #000000;
+    color: #fff;
+}
+
+.buttonGroup .botonInactivo {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    background: #e0e0e0;
+    color: #000;
+}
+
+.listaMensajes {
+    margin-top: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    padding: 0;
+    list-style: none;
+}
+
+.listaMensajes li {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.listaMensajes li:hover {
+    background: #f9f9f9;
+    cursor: pointer;
+}
+
+.barraMensaje {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.barraMensaje div {
+    padding: 0 10px;
+}
+
+.noLeido {
+    background-color: #eee;
+}
+
+.mensaje {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+   
+}
+
+
+.cabeceraMensaje {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cabeceraMensaje:hover {
+    background: #f0f0f0;
+}
+
+.cabeceraMensaje span {
+    flex: 1;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.mensaje img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .barraMensaje, .cabeceraMensaje {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cabeceraMensaje span {
+        width: 100%;
+        padding: 5px 0;
+    }
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.pagination div span {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.pagination  div span:hover {
+    background: #f0f0f0;
+}
+
+.pagination span.active {
+    background: #000000;
+    color: #fff;
+}
+
+.pagination div span[disabled] {
+    cursor: default;
+    color: #999;
+}
+
+
+  .arrow-left
+  {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Ajusta los elementos hacia la derecha */
+  }
+  
+  
+  .arrow-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex; /* Ajusta los elementos hacia la derecha */
+  }
+  
+  .center {
+    margin: 0 10px; /* Espacio entre el centro y los lados */
+  }

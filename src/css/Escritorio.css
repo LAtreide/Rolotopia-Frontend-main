@@ -1,0 +1,11 @@
+.listaPartidas ul{
+    list-style: none;
+}
+
+.listaPartidas ul li img{
+    margin: 5px;
+}
+
+.listaPartidas ul li a{
+    color: black;
+}

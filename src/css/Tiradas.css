@@ -1,0 +1,35 @@
+.dado-container { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 50px; 
+  } 
+   
+  .dado-inputs-container { 
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 20px; 
+    flex-wrap: wrap;
+  } 
+   
+  .dado-input-container { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-right: 20px; 
+     
+  } 
+   
+  .dado-input-container:last-child { 
+    margin-right: 0; 
+  } 
+   
+  .dado-checkbox-container { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  } 
+   
+  .dado-checkbox-label { 
+    margin-top: 10px; 
+  }

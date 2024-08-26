@@ -1,0 +1,218 @@
+.post{
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 10px;
+margin-bottom: 15px;
+
+
+display: flex;
+}
+
+.buttonMenu{
+float: right;
+}
+
+.postMenu{
+display: block;
+left: 100%;
+
+}
+
+.postMenu div{
+box-sizing: border-box;
+border: 1px solid blue;
+background-color: white;
+padding-right: 10px;
+
+}
+
+.avatarAutor{
+width: 208px;
+height: 328px;
+border: 2px solid #6DA8B0;
+
+
+}
+
+
+.destinatarios{
+list-style: none;
+display: inline-block;
+vertical-align: top;
+padding-left: 5px;
+
+}
+
+.destinatarios li{
+display: inline;
+margin-right: 3px;
+}
+
+
+.destinatario{
+    border: 1px solid black;
+}
+
+.postLeido{
+
+        opacity: 1;
+
+}
+
+.postNoLeido{
+    opacity: 0.5;
+}
+
+.notasPost{
+
+    border: 3px solid red;
+}
+
+.tiradasPost {
+  background-color: rgba(0, 0, 0, 0.5); /* Color más oscuro por defecto */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.tituloTiradas {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #007bff; /* Blue color */
+  text-align: center;
+}
+
+.listaTiradas {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.itemTirada {
+  margin-bottom: 20px;
+}
+
+.contenidoTirada {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.6); /* Color más oscuro por defecto */
+}
+
+.detalleTirada {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+
+.resultadoTirada {
+  font-size: 1em;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.numeroTirada {
+  margin: 0 5px;
+}
+
+.separatorTirada {
+  margin: 0 5px;
+}
+
+
+
+
+.check_box {
+    display:none;
+}
+
+.check_box + label{
+    background:url('https://www.rolotopia.duckdns.org/static/media/letras.9ccaefe6.png') no-repeat;
+    height: 16px;
+    width: 16px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
+
+.check_box:checked + label{
+    background:url('https://www.rolotopia.duckdns.org/static/media/letras.9ccaefe6.png') no-repeat;
+    height: 16px;
+    width: 16px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
+
+
+
+#miDiv {
+    position: relative;
+    float: right;
+    /* Agrega aquí otros estilos que desees aplicar a tu div */
+  }
+
+  #botones {
+position: relative;
+    top: -21px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .boton {
+    background-color: #BABEBF;
+    color: #024652;
+    border: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: none;
+    border-right: none;
+    transform: skew(-20deg);
+    padding: 10px 20px;
+    margin-right: -1px;
+    border-top-left-radius: 5px;
+  }
+  
+  .boton span {
+    transform: skew(20deg);
+    display: inline-block;
+  }
+
+  
+
+  .boton:last-child {
+    position: relative;
+    margin-right: 0;
+    border-right: 1px solid black;
+  }
+  .boton:last-child:before {
+    border-right: 1px solid black;
+    border-left: none;
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -10px;
+    display: block;
+    width: 25px;
+    background-color: #BABEBF;
+    -webkit-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    transform: skew(20deg);
+  }
+
+  .textoPost{
+    background: /* top, transparent black, faked with gradient */ 
+          linear-gradient(
+            rgba(255, 255, 255, 0.1), 
+            rgba(255, 255, 255, 0.1)
+          );
+    border: 1px solid black;
+    border-radius: 5px;
+    min-height: 150px;
+    padding: 10px;
+
+  }

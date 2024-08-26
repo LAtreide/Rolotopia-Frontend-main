@@ -1,0 +1,163 @@
+/* Estilos generales */
+
+h1 {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Estilos para las secciones del foro */
+
+.seccionForo {
+  background-color: #94C8D5;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.seccionForo:hover {
+  color: white;
+  background-color: #062e33;
+}
+
+.seccionNoStaff {
+  /* Estilos específicos para secciones no aptas para el staff */
+  color: #333;
+}
+
+
+.seccionStaff {
+  /* Estilos específicos para secciones aptas para el staff */
+  color: #fff;
+  background-color: #33838D;
+}
+
+
+/* Estilos para el formulario de nueva sección */
+
+.nuevaSeccion {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: box-shadow 0.3s;
+}
+
+.nuevaSeccion form {
+  margin-bottom: 10px;
+}
+
+.nuevaSeccion input[type="text"],
+.nuevaSeccion input[type="checkbox"] {
+  margin-bottom: 10px;
+}
+
+.nuevaSeccion button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nuevaSeccion button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+.nuevaSeccion button[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.nuevaSeccion button {
+  margin-right: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nuevaSeccion button:hover {
+  background-color: #ddd;
+}
+
+/* Estilos para el botón de nueva sección prohibido */
+
+.botonProhibido {
+  background-color: #ccc;
+  color: #fff;
+  cursor: not-allowed;
+  transition: background-color 0.3s;
+}
+
+.botonProhibido:hover {
+  background-color: #ccc;
+}
+
+/* Estilos para la animación de desvanecimiento */
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Otros estilos para personalizar tu foro */
+
+/* Agrega aquí tus propios estilos personalizados según tus preferencias */
+
+
+
+.mensajeForo {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+
+
+  display: flex;
+  border: 1px solid black
+}
+
+.avatarAutorMensajeForo {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #6DA8B0;
+
+
+}
+
+
+
+.textoMensajeForo{
+  background: /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(255, 255, 255, 0.1), 
+          rgba(255, 255, 255, 0.1)
+        );
+  border: 1px solid black;
+  border-radius: 5px;
+  min-height: 150px;
+  padding: 10px;
+
+}
+
+.tituloSeccion{
+  cursor: pointer;
+}

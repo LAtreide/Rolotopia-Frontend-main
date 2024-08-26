@@ -1,0 +1,65 @@
+.listaNotificaciones{
+ list-style: "none";
+ width: 250px;
+ max-height: 200px;
+ overflow-y: auto;
+
+}
+
+.cerrarNotificacion{
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: 10px;
+    top: 0px;
+    border-radius: 10px;    
+
+}
+
+.notificacionEnlace{
+    text-decoration: none;
+    color: inherit;
+}
+
+.notificacionEnlace:hover{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.notificacion{
+    border: 1px solid black;
+    background-color: rgb(165, 69, 154);
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+
+}
+
+
+.notificacion img{
+    width: 20px;
+    height: 20px;
+
+}
+
+
+.notificacion span{
+    margin-left: 5px;
+
+}
+
+
+.listaNotificacionesTemporal{
+
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    list-style: "none";
+    width: 250px;
+
+}

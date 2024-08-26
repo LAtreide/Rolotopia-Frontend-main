@@ -1,0 +1,28 @@
+/* Estilos generales */
+.rolotopia-container {
+    width: 100%;
+  }
+  
+  
+  /* Estilos específicos para las secciones */
+  .noticias-section {
+    margin-top: 15px;
+    
+    /* Puedes agregar estilos adicionales para la sección de noticias */
+  }
+  
+  .side-sections .foros-section,
+  .side-sections .blogs-section,
+  .side-sections .rolotopitas-section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  
+    /* Puedes agregar estilos adicionales para las secciones de foros y blogs */
+  }
+  
+  .timeline-section {
+    margin-top: 15px;
+  
+    /* Puedes agregar estilos adicionales para la sección de timeline */
+  }
+  

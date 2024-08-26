@@ -1,0 +1,100 @@
+.etipestana{
+
+
+    border-top: 2px solid #04675F !important;
+    border-left: 2px solid #04675F !important;
+    border-right: 1px solid #04675F !important;
+    top: 1px !important;
+    padding: 2px !important;
+    background-color: #94C8D5 !important;
+    margin-right: 2px !important;
+  }
+  
+  .etipestana:hover {
+    background-color: #A5D9E6 !important;
+  }
+  
+  .etipestana.active {
+    background-color: #A5D9E6 !important;
+    border-bottom: 1px solid #9463A3 !important;
+  }
+
+
+.pestanas {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pestanas li span {
+    display: inline-block;
+    padding: 2px;
+    border: 2px solid rgb(148, 200, 213);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid rgb(148, 200, 213);
+   
+    cursor: pointer;
+  }
+  
+  
+
+  
+.contenido{
+    border: 3px solid  rgb(148, 200, 213);
+    border-radius: 0px 10px 10px 10px;
+}
+
+  .contenido button {
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .contenido button.primary {
+    background-color: rgb(148, 200, 213);
+  }
+  
+  .contenido button.secondary {
+    background-color: rgb(4, 67, 74);
+  }
+
+
+  .etiqueta {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .etiqueta li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .BotonBorrar {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .BotonGuardar {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+  }
+  
+  .EtiquetaContenedor {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .EtiquetaContenedor ul{
+    display: inline-flex;
+  }

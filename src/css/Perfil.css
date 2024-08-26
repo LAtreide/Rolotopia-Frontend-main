@@ -1,0 +1,29 @@
+/* Estilos de los botones del menú */
+.tab button {
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 5px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  /* Estilo de los botones activos */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Estilo del contenido de las pestañas */
+  .tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  /* Estilo del contenido de la pestaña activa */
+  .tabcontent.active {
+    display: block;
+  }

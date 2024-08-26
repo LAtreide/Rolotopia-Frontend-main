@@ -1,0 +1,188 @@
+.login{
+    min-height: inherit;
+    position: absolute;
+    align-items: center;
+    margin-top: 0px;
+    background-image: url("../imgs/FondoLogin.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    
+}
+
+.login>div{
+background-color: rgb(4,67,74);
+border-radius: 0px 25px 0px 25px;
+
+}
+
+.login>div label{
+  color:rgb(148,200,213)
+}
+
+.clickableLogin{
+  color:rgb(148,200,213);
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+}
+
+
+.noButton{
+
+    all:unset;
+    width: 100%;
+}
+
+
+
+.login>div input{
+background-color: rgb(205,238,247);
+
+}
+
+
+.alerta{
+  text-align: center;
+  background-color: #f7cfd2;
+  color: #961919;
+  font-size: 13px;
+  border-color: #961919;
+}
+
+
+.backArrow{
+  cursor: pointer;
+  color:rgb(148,200,213);
+  font-size: 2em;
+}
+
+
+.buttonRolotopia{
+  color:  rgb(148,200,213);
+  background-color: rgb(4,67,74);
+  border-color: rgb(148,200,213);
+}
+
+.buttonRolotopia:hover{
+  color:  rgb(4,67,74);
+  background-color: rgb(148,200,213);
+  border-color: rgb(4,67,74);
+ 
+}
+.buttonRolotopia:disabled{
+  color:  rgb(4,67,74);
+  background-color: rgb(148,200,213);
+  border-color: rgb(4,67,74);
+ 
+}
+
+.buttonRolotopia:active{
+  color:  rgb(4,67,74);
+  background-color: rgb(148,200,213);
+  border-color: rgb(4,67,74);
+ 
+}
+
+.buttonRolotopia:focus{
+  color:  rgb(4,67,74);
+  background-color: rgb(148,200,213);
+  border-color: rgb(4,67,74);
+ 
+}
+
+.button2 {
+    
+    width: 100%;
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 4px;
+  color: rgb(148,200,213);
+  text-decoration: none;
+  overflow: hidden;
+  text-align: center;
+  filter: hue-rotate(0deg);
+  border: 1px solid rgb(51,131,141);
+  transition: all 0.1s linear;
+  cursor: pointer;
+  
+}
+.button2:hover {
+  border: 1px solid transparent;
+}
+.button2:hover span {
+  position: absolute;
+  display: block;
+}
+.button2:hover span:nth-child(1) {
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgb(51,131,141));
+  animation: animate1 2s linear infinite;
+}
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+.button2:hover span:nth-child(2) {
+
+  top: -100%;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent,rgb(51,131,141));
+  animation: animate2 2s linear infinite;
+  animation-delay: 0.5s;
+}
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+.button2:hover span:nth-child(3) {
+ 
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: linear-gradient(270deg, transparent,rgb(214,77,86));
+  animation: animate3 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate3 {
+  0% {
+    right: -100%;
+    height: 1px;
+  }
+  50%, 100% {
+    height: 1px;
+    right: 100%;
+  }
+}
+.button2:hover span:nth-child(4) {
+  
+  bottom: -100%;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, rgb(214,77,86));
+  animation: animate4 2s linear infinite;
+  animation-delay: 1.5s;
+}
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%, 100% {
+    bottom: 100%;
+  }
+}
